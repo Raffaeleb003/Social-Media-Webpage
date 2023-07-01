@@ -17,8 +17,8 @@ body {
 }
 
 .container img {
-  width: 80px; /* Adjust the value as needed */
-  margin: 10px; /* Adjust the value as needed */
+  width: 80px;
+  margin: 10px; 
 }
 
 @media (max-width: 768px) {
