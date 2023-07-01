@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.container a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.container img {
+  width: 50px; /* adjust the size as needed */
+  height: 50px;
+}
