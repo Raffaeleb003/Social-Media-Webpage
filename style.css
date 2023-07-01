@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
   overflow: hidden;
@@ -8,11 +12,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .container img {
-    width: 32vw;
-    margin: 30px;
+  width: 80px; /* Adjust the value as needed */
+  margin: 10px; /* Adjust the value as needed */
 }
 
 @media (max-width: 768px) {
