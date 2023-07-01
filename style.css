@@ -3,16 +3,23 @@ body {
 }
 
 .container {
-  text-align: center;
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.container a {
-  display: inline-block;
+.icon {
   margin: 10px;
 }
 
-.container img {
-  width: 50px; /* adjust the size as needed */
+.icon img {
+  width: 50px;
   height: 50px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 }
