@@ -16,7 +16,19 @@ body {
   margin: 0 auto;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  background-color: black;
+  color: #888;
+}
 
+.footer a {
+  color: #1e90ff;
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
   .container {
